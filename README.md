@@ -16,8 +16,11 @@
     git config --global user.name "Danny"
     git config --global user.email danny.larrea.argudo@gmail.com
     ```
+ **3. Creación repositorio**
+ 
+ Para crear un nuevo repositorio, tendremos que ir a la página de git [https://git-scm.com](https://git-scm.com)
     
- **3.Etiquetas básicas de Github**
+ **4.Etiquetas básicas de Github**
  
   **Encabezados**
   
@@ -99,6 +102,8 @@
   * Gané la medalla de oro.🥇
   * Aprendi el abecedario. 🔤
   * Me desperté cuando sono la alarma.⏰
+
+
  
  
  
