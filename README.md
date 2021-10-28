@@ -228,6 +228,9 @@ Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
  img: añadir imagenes
   
  div: caja en html
+ 
+  Para poner un icono de página tenemos que crar en Visual Studio un directorio ``img``. Posteriormente ir a [Font Awesome](https://fontawesome.com/). y descargar el que nos guste más y después guardarlo en el directorio `img``. Para unirlo con el index html solo tenemos que utilizar la etiqueta ``link`` y unirlo con la imagen de directorio ``img``. Una vez echo esto ya tendriamos nuestra icono de web. Para ver como queda Abrimos el index.html des de la carpeta donde lo habíamos guardado y podemos ver tanto el icono como lo que hayamos echo hasta el momento.
+  
   
  **Atributos importantes**
   
@@ -268,9 +271,6 @@ Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
   background-size: tamaño del fondo
   
   border: borde
-  
- 
- Para poner un icono de página tenemos que crar en Visual Studio un directorio ``img``. Posteriormente ir a [Font Awesome](https://fontawesome.com/). y descargar el que nos guste más y después guardarlo en el directorio `img``. Para unirlo con el index html solo tenemos que utilizar la etiqueta ``link`` y unirlo con la imagen de directorio ``img``. Una vez echo esto ya tendriamos nuestra icono de web. Para ver como queda Abrimos el index.html des de la carpeta donde lo habíamos guardado y podemos ver tanto el icono como lo que hayamos echo hasta el momento.
   
   **Estilos css**
   
