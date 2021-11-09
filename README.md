@@ -305,3 +305,20 @@ En cambio si solo queremos que lo lleve una pequeña parte. En la linea de códi
 Ponemos ``#`` cuando es ``id`` y ``.`` cuando es ``class``
   - Externos: Son iguales que los internos pero estan echos a parte en un directorio css, que posteriormente habrá que enlazar con la etiqueta ``link`` al index.html.
   
+*{
+} :universal
+
+li{
+}selector elementos 
+
+.test{
+}selector de clase
+
+#testh{
+}selector de id
+
+li p{
+} sselector colindante
+
+li>p{
+} selector de los hijos directos
