@@ -9,7 +9,8 @@
   
 ### 2.Establecer valores de configuración
     
-    Esta información se utiliza para tener registro en los cambios que se van a desarollar. Esta configuración se realiza la 
+    Esta información se utiliza para tener registro en los cambios que se van a desarollar. Esta configuración se realiza la <img width="230" alt="147563188-df88c721-7f93-447c-9a13-0f0a09195ef5" src="https://user-images.githubusercontent.com/91189406/147563244-f00305df-e0f7-4e23-82bd-eec7b11e23e2.png">
+
     primera vez que se utiliza Git.
     
     ```
@@ -229,6 +230,12 @@ Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
   
  div: caja en html
  
+ footer: pie de página
+ 
+ section: sección
+ 
+ header: encabezado
+ 
   Para poner un icono de página tenemos que crar en Visual Studio un directorio ``img``. Posteriormente ir a [Font Awesome](https://fontawesome.com/). y descargar el que nos guste más y después guardarlo en el directorio `img``. Para unirlo con el index html solo tenemos que utilizar la etiqueta ``link`` y unirlo con la imagen de directorio ``img``. Una vez echo esto ya tendriamos nuestra icono de web. Para ver como queda Abrimos el index.html des de la carpeta donde lo habíamos guardado y podemos ver tanto el icono como lo que hayamos echo hasta el momento.
   
   
@@ -250,7 +257,7 @@ Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
   
   font-size: tamaño letra
   
-  padding: relleno
+  padding: relleno. Cuando queremos hacer una regla para el `padding` siempre la indicamos con una letra para saber el tamaño que tiene, como en las camisetas.
   
   paading-top: relleno de arriba
   
@@ -259,6 +266,8 @@ Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
   ...
   
   margin: márgen
+  
+  
   
   margin-top: márgen de arriba
   
@@ -272,6 +281,26 @@ Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
   
   border: borde
   
+  text-align: alineación del texto
+  
+  justify-content: para justificar el contenido. Tendria esta estructura.
+  
+  
+  <img width="203" alt="Captura de pantalla 2021-12-28 122927" src="https://user-images.githubusercontent.com/91189406/147562081-2bb499a6-9df3-4705-a2b2-40142b47dddb.png">
+
+  Para adjuntar videos o mapas entre otras cosas utilizamos la etiqueta `iframe`, para hacerlo nos vamos al video que que queremos, le damos a comartir y a insertar vídeo. Entonces nos sale un texto en formato `html` que copiaremos y pegaremos en nuestro `index.html`. Posteriormente, se podrá cambiar la altura que viene predeterminada o hacer una classe nueva para añadirle estilos, podremos modificar la anchura. 
+A continuación se puede ver un ejemplo de como quedaria:
+
+
+<img width="721" alt="Captura de pantalla 2021-12-28 124431" src="https://user-images.githubusercontent.com/91189406/147563453-1157c1d8-b410-4a65-aac6-1c50326f25e8.png">
+
+
+
+<img width="230" alt="Captura de pantalla 2021-12-28 124454" src="https://user-images.githubusercontent.com/91189406/147563188-df88c721-7f93-447c-9a13-0f0a09195ef5.png">
+
+
+<img width="960" alt="Captura de pantalla 2021-12-28 124635" src="https://user-images.githubusercontent.com/91189406/147563227-5e63df3b-833c-45a7-a316-2d081c79cef0.png">
+
   **Estilos css**
   
   Hay 3 formaas de añadir estilos:
@@ -322,3 +351,23 @@ li p{
 
 li>p{
 } selector de los hijos directos
+
+**Formato Web**
+
+Cuando se crea una página web y se tienen que querer en cuentas las filas y la columnas según donde quieras ubicar los diferentes elementos. Para esto tendremos que utilizar la etiqueta `div` cada vez que sea una fila diferente le pondremos la classe `row`, para ubicar elementos en diferentes columnas es tan sencillo como añadir otro `div` con clase `column-n`donde pondremos el número de columnas que habrá y allí es donde podremos meter el contenido. Siempre se dividira el porcentaje de la pantalla entre el número de columnas para saber lo que ocupa es decir que si hay 4 en la hoja de estilos pondremos un `with`del `25%`.
+Ejemplo:
+<img width="785" alt="Captura de pantalla 2021-12-28 130526" src="https://user-images.githubusercontent.com/91189406/147564659-381b35be-0916-48c9-a862-f5f81a084a01.png">
+
+
+<img width="629" alt="Captura de pantalla 2021-12-28 130548" src="https://user-images.githubusercontent.com/91189406/147564674-c8882b03-cc6f-48c5-98d3-d7572fdf6b1a.png">
+
+Esto quedaría asi:
+
+<img width="960" alt="Captura de pantalla 2021-12-28 130446" src="https://user-images.githubusercontent.com/91189406/147564692-aa4b668c-f3f5-4f55-8501-24b05da5b8c6.png">
+
+**Media Queries**
+Las media queries son útiles cuando deseas modificar tu página web o aplicación en función del tipo de dispositivo o de unas caracteristicas específicas. Dentro de esto añadiremos solo las reglas que queremos modificar. Como se ve en la siguiente imagen:
+
+<img width="369" alt="Captura de pantalla 2021-12-28 131237" src="https://user-images.githubusercontent.com/91189406/147565125-e7de84f6-62ec-42d4-8bbc-490140dd5411.png">
+
+
