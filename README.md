@@ -366,6 +366,7 @@ Esto quedaría asi:
 <img width="960" alt="Captura de pantalla 2021-12-28 130446" src="https://user-images.githubusercontent.com/91189406/147564692-aa4b668c-f3f5-4f55-8501-24b05da5b8c6.png">
 
 **Media Queries**
+
 Las media queries son útiles cuando deseas modificar tu página web o aplicación en función del tipo de dispositivo o de unas caracteristicas específicas. Dentro de esto añadiremos solo las reglas que queremos modificar. Como se ve en la siguiente imagen:
 
 <img width="369" alt="Captura de pantalla 2021-12-28 131237" src="https://user-images.githubusercontent.com/91189406/147565125-e7de84f6-62ec-42d4-8bbc-490140dd5411.png">
