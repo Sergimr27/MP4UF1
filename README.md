@@ -49,7 +49,7 @@
        activamos las "GitHub Pages". Posteriormente, copiamos y pegamos el linl y ya esta echo.
        Si en un fututo queremos borrar el repositorio nos vamos a configuración y a borrar repositorio.
        Por último, si le damos al punto con el repositorio abierto nos redirige al "Visual Studio Code Online" y tenemos otro entorno 
-       para picar código aunque también se puede hacer en local (lo explicaremos más adelante.  El online tienela misma funcionalidad 
+       para picar código aunque también se puede hacer en local (lo explicaremos más adelante.  El online tiene la misma funcionalidad 
        que el local.
     
       
@@ -236,6 +236,8 @@ Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
  
  header: encabezado
  
+ article: artículo
+ 
   Para poner un icono de página tenemos que crar en Visual Studio un directorio ``img``. Posteriormente ir a [Font Awesome](https://fontawesome.com/). y descargar el que nos guste más y después guardarlo en el directorio `img``. Para unirlo con el index html solo tenemos que utilizar la etiqueta ``link`` y unirlo con la imagen de directorio ``img``. Una vez echo esto ya tendriamos nuestra icono de web. Para ver como queda Abrimos el index.html des de la carpeta donde lo habíamos guardado y podemos ver tanto el icono como lo que hayamos echo hasta el momento.
   
   
@@ -371,4 +373,17 @@ Las media queries son útiles cuando deseas modificar tu página web o aplicaci�
 
 <img width="369" alt="Captura de pantalla 2021-12-28 131237" src="https://user-images.githubusercontent.com/91189406/147565125-e7de84f6-62ec-42d4-8bbc-490140dd5411.png">
 
+Para que no nos aparezca una barra de scroll cuando hacemos más pequeña nuestra página tenemos que añadir  `scroll-behabior: smooth` en la etiqueta `html` de la hoja de estilos.
+
+**¿Cómo hacer un un menú que este fijo en la izquierda?**
+
+Para hacer un menú y que cada palabra nos lleve a una parte diferente de la página utilizaremos `id`. Para ello creamos un `div` con clase `row`, a su vez dentro de este crearemos otro `div` con clase `column-nav` y aqui es donde añadiremos todo. Utilizaremos la etieuta `li` y añadiremos dentro de esta la palabra que vayamos a utilizar y a su vez estara dentro de la etiqueta `a` y en el link pondremos `#nombre-id`. Es decir que pondremos el nombre de `id` que hayamos puesto en la parte del documento que queremos enlazar. Como se puede ver en las siguientes imagenes:
+
+<img width="404" alt="Captura de pantalla 2022-01-13 171553" src="https://user-images.githubusercontent.com/91189406/149367614-53975a49-a393-47f2-8be6-5bc9614d7300.png">
+
+<img width="644" alt="Captura de pantalla 2022-01-13 171642" src="https://user-images.githubusercontent.com/91189406/149367649-f7b2bb3a-d7d8-4f4f-a29b-0818a110efb9.png">
+
+<img width="939" alt="Captura de pantalla 2022-01-13 171845" src="https://user-images.githubusercontent.com/91189406/149368067-2f052b2b-07a0-459a-becf-2abd140f1cf8.png">
+
+Para que este fijo tenemos que crear una regla para el menú utilizando `position: fixed` de esta forma se quedará fijo.
 
