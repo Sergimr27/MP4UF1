@@ -153,7 +153,9 @@
  Es un editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS. Es compatible con varios lenguajes de programación como ``html``, ``css``, ``JavaScript``,... Una vez creado para crear un repositorio vamos a ``Archivo`` y le damos a ``Abrir Carpeta`` y una vez seleccionada crear dentro un index.html. Una vez creado el directorio podemos empezar a picar código. Cuando hemos acabado para guardar lo podemos hacer manualmente yendo a ``Contro de código fuente`` o ``Ctrl+Alt+Maj``. Dentro de este tendremos que darle click a ``Confirmar`` para que se guarden los cambios o  directamente hacer un ``Ctrl+S`` y se guarda automáticamente. Taambién podemos descargar las extensiones que nos interesen.
  
  **Podemos crear un repositório de GitHub y trabajar con Visual Studio?** 
+ 
  La respuesta es si. Para hacerlo es tan sencillo como darle click al icono de ``code`` en el repósitorio de GitHub y copiar el link que nos aparece. Irnos al Visual Studio, abrimos la carpeta donde queremos se creará el directorio y si hacemos click en el menú ``Terminal`` y le damos a ``Nuevo Terminal`` podremos ejercutar el comando ``git clone`` y pegamos el link del repositorio copiado anteriormente.
+
 
 Ejemplo:
 ```
@@ -170,6 +172,12 @@ git push origin main
 ```
 
 Ya estarán los cambios subidosy podremos trabajar tanto en linea como en local.
+
+También podemos subirlo una vez echo un repositorio en local, para ello nos iriamos a `Git Hub` y creariamos un nuevo repositorio sin añadir `Readme` ni ninguna de las opciones de abajo. Se nos crearía un repositorio como este:
+
+<img width="941" alt="Captura de pantalla 2022-01-13 173016" src="https://user-images.githubusercontent.com/91189406/149369858-bf58493f-2614-4f2d-a13b-76285bf0766b.png">
+
+Para subirlo tendriamos que introducir los comandos que nos indica en la terminal del Visual Studio. Pero, donde dice `git add README.md` hay que poner `git add .` el resto de comando esta bn. Una vez eho esto si recargamos el repositorio podemos ver que se ha subido y están guardados los cambios.
 
  **Comandos Visual Studio Code**:
  
